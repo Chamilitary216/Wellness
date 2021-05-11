@@ -1,0 +1,72 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: transparent;
+    transition: 0.6s ease-in-out;
+}
+
+nav.active {
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+    background-color: #000;
+}
+
+.logo img {
+    width:90px;
+}
+
+nav.active{
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+	background-color: #000000;
+}
+nav ul{
+	display: flex;
+}
+.active{
+    background-color:rgba(120, 208, 245, 0.157);
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	transition: all ease 0.2s;
+}
+.active:hover{
+    background-color: #000000;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	transition: all ease 0.2s;
+}
+nav ul li a{
+    font-family: 'Lato';
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#ffffff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+	background-color: teal;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(73, 178, 189, 0.411);
+	transition: all ease 0.2s;
+}
+nav .menu-btn,
+.menu-icon{
+		display:none;
+	}

@@ -1,0 +1,180 @@
+.background{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../images/contact.jpg);
+    background-size: cover;
+    
+ } 
+
+.title{ 
+    text-align: center;
+    margin-top: 14%;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 4px 5px 8px rgba(0,0,0,0.6);
+}
+p.sub-title{
+    margin-top: 2%;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+    text-shadow: 4px 5px 8px rgba(0,0,0,0.6);
+
+
+}
+#contact-container {
+    display: flex;
+    width: 1000px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 7px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(20px);
+    -webkit-box-shadow: 10px 11px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 20px 3px rgba(0,0,0,0.75);
+    
+
+    .contact-info{
+        border-radius: 15px;
+        background-color: rgb(18, 91, 118);
+        flex: 0 1 40%;
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 2rem;
+            font-weight: 300;
+            margin: 0;
+            margin-top: 0;
+    
+        }
+        p {
+            font-size: 1.1rem;
+            font-weight: 300;
+            margin-bottom: 2.9rem;
+            color: rgba(255, 255, 255, .7);
+        }
+        .icon-text {
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 2rem;
+            .fa {
+                font-size: 2rem;
+                margin-right: 1.4rem;
+                flex: 0 0 20px;
+                color: #1fa8d1;
+            }
+            span{
+                font-size: 1.1rem;
+                font-weight: 300;
+            }
+        
+            .social-media{
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                .icon-circle{
+                    display:flex;
+                    flex: 0 1 40px;
+                    justify-content: center;
+                    height: 40px;
+                    border-radius: 50%;
+                    align-items: center;
+                    transition: .3s all ease-in-out; 
+                    background: #1fa8d1;
+                   
+                    &:hover {
+                        background: #1fa8d1;
+                    }
+                    .fa {
+                        font-size: 25px;
+                    }
+
+                }
+            }
+            
+        }
+    }
+    form{
+        padding: 40px;
+        width: 100%;
+        .col{
+            display: flex;
+            flex: 0 0 100%;
+            width: 100%;
+        }
+        .form-group {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                padding-right: 40px;
+                flex: 0 1 100%;
+                label{
+                    font-size: .9rem;
+                    color: rgba(255, 255, 255, .6);
+                    margin-bottom: 2rem;
+                }
+                input[type="text"], input[type="email"], input[type="tel"], textarea {
+                    background: transparent;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 1.5rem;
+                    padding: 10px;
+                    margin-bottom: 2rem;
+                    font-weight: 300;
+                    transition: all .3s ease-in-out;
+                    border-bottom: 2px solid rgba(255,255,255, .4);
+                    &:focus {
+                        border:none;
+                        outline: none;
+                        border-bottom: 2px solid #1fa8d1;
+                    }
+                }
+                &:nth-child(2){
+                    padding-right: 0;
+                }
+                #radio-btns {
+                    display: flex;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    justify-content:space-evenly;
+                    .radio-btn {
+                        margin-right: 10px;
+                    }
+                    label {
+                        font-size: 1.0rem;
+                    }
+                    input[type="radio"]:checked + label{
+                        color: white;
+                        font-weight: 700;
+                    }
+                }
+                &.solo {
+                    padding: 0;
+                }
+                &.right {
+                    align-items:flex-end;
+                }
+                button {
+                    background: white;
+                    border: none;
+                    width: 200px;
+                    height: 60px;
+                    cursor:pointer;
+                    text-transform: uppercase;
+                }
+            
+        }
+    }
+
+
+    
+}

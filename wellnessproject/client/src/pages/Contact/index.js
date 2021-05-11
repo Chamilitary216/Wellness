@@ -1,8 +1,21 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "./ContactStyle.scss"
 import { BsFillEnvelopeFill, BsMap, BsPhone , } from "react-icons/bs"
 import {FiTwitter, FiFacebook, FiInstagram, FiYoutube} from "react-icons/fi"
 
+function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'template_x2b3d1k', e.target, 'user_qLWL4vnfnfdz7ns2r1zoH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+
+}
 
 
 const Contact = () => {
@@ -10,7 +23,7 @@ const Contact = () => {
         
         <div className = "background">
             <h1 className = "title">Contact Us</h1>
-            <p className = "sub-title"> Lorem ipsum</p>
+            <p className = "sub-title"> Fill out provided form</p>
 
             <div id = "contact-container">
                 <div className = "contact-info">
@@ -40,7 +53,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div className = "social-media">
+                    {/* <div className = "social-media">
                         <a href = "#" className = "circle">
                             <i className = "icon"></i>
                             <FiTwitter className = "icon-circle"/>
@@ -60,7 +73,7 @@ const Contact = () => {
                             <i className = "icon"></i>
                             <FiYoutube className = "icon-circle" />
                         </a>
-                    </div>
+                    </div> */}
                     </div>
 
 

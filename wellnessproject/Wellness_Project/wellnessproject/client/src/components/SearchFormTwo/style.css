@@ -1,0 +1,31 @@
+.searchformtwo{
+    margin: 0 auto;
+    font-size:24px;
+    margin-top: 15px;
+    width: 360px;
+}
+
+.searchtwo{
+    margin-top: 15px;
+    margin-left:20px;
+}
+
+/* Searchfortwo is the Div for Search Entry */
+
+/* @media only screen and (max-width: 1096px) {
+    .searchformtwo {
+      width: 200px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .searchformtwo {
+      width: 170px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .searchformtwo {
+      width: 120px;
+    }
+} */

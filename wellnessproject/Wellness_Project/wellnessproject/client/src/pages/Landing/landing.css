@@ -1,0 +1,22 @@
+.landing-page {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-image: url(../../images/landing2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Girassol', cursive;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.app-title {
+    font-size: 48px;
+    margin-left: 30px;
+}
+.statement {
+    font-size: larger;
+}

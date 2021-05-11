@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "muscles": "Chest/Tries",
+        "excersizes": ["Push Ups: X100", "Dumbell Bench Press: 4 Sets Of 8-12", 
+            "Barbell Bench Press: 4 Sets Of 8-12", "Incline Barbell Press: 3 Sets Of 10-15", 
+            "Decline Barbell Press: 3 Sets Of 10-15", "Pully Flies Incline: 3 sets 10-15",
+            "Pully Flies Decline: 3 Sets Of 10-15", "Rope Pull Down: 4 Sets Of 10-15", 
+            "Overhead Tricep Extensions: 4 Sets Of 10-15", "Dips: 3 Sets Until You Drop", 
+            "Isolated Tricep Extensions 3 Sets Of 10-15" 
+        ]
+    },
+    {
+        "id": 2,
+        "muscles": "Back/Bies",
+        "excersizes": ["Dumbell Bicep Curls: 3 Sets Of 10-15", "Bent Over Barbell Rows: 4 Sets Of 8-12", 
+            "Shoulder Press: 4 Sets Of 8-12", "Bent Over Dumbell Rows: 4 Sets Of 8-12","Kneeled One Arm Rows: 3 Sets Of 10-15", 
+            "Dead Lifts: 4 Sets Of 8-12", "Dumbell Hammer Curls: 3 Sets Of 10-15", "Rope Cable Curls: 3 Sets Of 10-12", 
+            "Concentration Curls: 3 Sets Of 10-12", "Single Arm T-Bar: 3 Sets Of 10-12" 
+        ]
+    },
+    {
+        "id": 3,
+        "muscles": "Full Upper Body",
+        "excersizes": ["Barbell Bench Press: 4 Sets Of 8-12", "Bent-Over Barbell Rows: 3 Sets Of 10-15",
+        "Chin Ups: Until It Hurts!", "Incline Flye: 3 Sets Of 10-15", "Diamond Press-Ups X100", "Overhead Press: 4 Sets Of 8-12", 
+        "Barbell High Pulls: 3 Sets Of 8-12", "Lateral Raise: 4 Sets Of 10-15", "Seated Overhead Press: 4 Sets Of 10-15",
+        "Dumbell Tricep Extension: 4 Sets Of 10-15"
+        ]
+    },
+    {
+        "id": 4,
+        "muscles": "Legs",
+        "excersizes": ["Hip Dips: 4 Sets Of 15-20", "Incline Leg Press: 4 Sets Of 8-12", "Leg Extension 4 Sets Of 12-15", 
+        "Single Leg Dead Lift: 4 Sets Of 10-15", "Leg Curls: 4 Sets Of 10-15", "Back Squats: 4 Sets Of 8-12", "Front Squats: 4 Sets Of 8-12", 
+        "Dead Lifts: 4 Sets of 8-12","Lunges: Until It Hurts!!!", "Kettle Bell Dead Lifts: 4 Sets Of 10-15"
+        ]
+    }
+]

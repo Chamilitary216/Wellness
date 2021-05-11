@@ -1,0 +1,61 @@
+.fitness-page {
+    background-image: url(../../images/fitness.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.fitness-intro {
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.intro-statement {
+    margin-left: 12%;
+}
+
+.daily-workouts {
+    color: white;
+    border: black solid 3px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    filter: drop-shadow(35px 35px 5px black);
+    padding: 30px;
+}
+
+.fitness-title {
+    font-size: 100px;
+    text-shadow: 4px 4px #3AA08C;
+}
+
+.fitness-headers {
+    color: #3AA08C;
+    font-size: 32px;
+}
+
+.workout-options {
+ color: white;
+ border-radius: 75px;
+ background-color: black;
+ text-align: center;
+ padding: 20px;
+}
+
+.list-item {
+    list-style: none;
+    font-size: large;
+    line-height: 50px;
+}
+
+.carousel {
+    margin:50px 20px 0 20px;
+}

@@ -24,11 +24,12 @@ nav.active {
 
 .logo img {
     width:90px;
+    margin-left: -160px;
 }
 
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
-	background-color: #000000;
+	background-color: rgb(66, 69, 69);
 }
 nav ul{
 	display: flex;
@@ -36,13 +37,13 @@ nav ul{
 .active{
     background-color:rgba(120, 208, 245, 0.157);
     color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	box-shadow: 5px 10px 30px teal;
 	transition: all ease 0.2s;
 }
 .active:hover{
     background-color: #000000;
     color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	box-shadow: 5px 10px 30px teal;
 	transition: all ease 0.2s;
 }
 nav ul li a{

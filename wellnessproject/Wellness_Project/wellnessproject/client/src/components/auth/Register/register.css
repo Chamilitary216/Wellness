@@ -1,0 +1,13 @@
+.register-form {
+    margin: 50px auto 50px auto;
+    border-radius: 100%;
+    padding: 50px;
+    width: 100px;
+    height: auto;
+    background-image: url(../../../images/ice.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    filter: drop-shadow(0px 0px 40px rgb(190, 200, 255));
+}

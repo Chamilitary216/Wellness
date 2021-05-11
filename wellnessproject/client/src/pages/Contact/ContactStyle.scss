@@ -5,10 +5,23 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-image: url(../../images/contact.jpg);
+    background-image: url(../../images/contact1.jpg);
     background-size: cover;
     
  } 
+
+ .background::before {
+    position: absolute;
+    content: "";
+    background: -moz-radial-gradient(center, ellipse cover, rgb(20, 74, 74) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(20, 74, 74) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgb(20, 74, 74) 0%, rgba(0, 0, 0, 0.6) 100%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+ }
 
 .title{ 
     text-align: center;
@@ -69,7 +82,7 @@ p.sub-title{
                 font-size: 2rem;
                 margin-right: 1.4rem;
                 flex: 0 0 20px;
-                color: #1fa8d1;
+                color: teal;
             }
             span{
                 font-size: 1.1rem;

@@ -1,0 +1,13 @@
+.login-form {
+    margin: 50px auto 70px auto;
+    border-radius: 100%;
+    padding: 75px;
+    background-image: url(../../../images/fire.png);
+    width: 100px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    filter: drop-shadow(0px 0px 40px rgb(255, 243, 190));
+}

@@ -12,6 +12,7 @@
     "bootstrap": "^4.6.0",
     "concurrently": "^6.0.2",
     "cors": "^2.8.5",
+    "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",

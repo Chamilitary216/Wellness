@@ -1,0 +1,66 @@
+.carddiv{
+    margin: 0 auto;
+
+}
+
+.picturecard{
+    /* margin-top:10px;
+    margin-bottom:10px; */
+    box-shadow: 15px 15px rgb(56, 55, 55);
+    /* background-image: url('../../images/dan-gold-4_jhDO54BYg-unsplash.jpg'); */
+    
+
+    
+    /* box-shadow: 20px 30px 3px #959c9e; */
+}
+
+.img-card-top{
+    display: block;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding:2px;
+    /* border: solid; */
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgb(56, 55, 55);
+
+}
+
+.card-text{
+    text-align: center;
+    opacity: 0.9;
+}
+
+.foodtext{
+    font-weight: bold;
+    box-shadow: 8px 8px rgb(56, 55, 55);
+}
+
+.listtext{
+    text-align: center;
+    list-style: none;
+    width: 0 auto;
+    box-shadow: 8px 8px  rgb(56, 55, 55);
+
+}
+
+
+/* @media only screen and (max-width: 1068px) {
+    .listtext {
+      width: 115px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .listtext {
+      font-size: 12px;
+      width:90px;
+    }
+}
+ */
+
+
+
+
